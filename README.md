@@ -33,7 +33,7 @@ E.g. for isopropyl alcohol:
 
 ## Implementation Notes
 The system is sensitive to vertical shift of the cuvette holder before assembly. We attached an .stl bottom plates which can be tested and glued to the bottom before assembly if it is off.
-In the final system the counts for DMSO at 30 s integration should be at lease ~27-20k without significant noise at ~15 degrees.
+In the final system the counts for DMSO at 30 s integration should be at least ~17-20k without significant noise at ~15 degrees if it is assembled correctly.
 It is recommended to cool with the TEC system implemented here to 15 degrees - it allows larger integration times up to 60 s.
 
 ## BILL OF MATERIALS
