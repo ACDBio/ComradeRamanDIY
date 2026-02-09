@@ -3,9 +3,6 @@ A DIY 3D printed Raman system with a CCD spectrometer using based on 90° scatte
 
 This repository documents the physical Raman system: overview, .stl and FreeCad files for 3d printing, bill of materials, and examples of the acquired spectra.
 Software used only for calibration, data acquisition, processing, visualization, and search in reference databases is available [here](https://github.com/ACDBio/raman-open-forge-imai).
-
-
-
 ---
 
 ## About the system
@@ -19,11 +16,6 @@ Key design choices:
 - stack of budget filters for effective filtration of the laser line
 
 The system was designed for stable measurement of liquid samples in cuvettes.
-
----
-
-The cuvette holder provided here can also be used with [Imai Optics](http://www.imaioptics.com/) probe [YM_RPL_785_500](https://aliexpress.ru/item/1005010193725685.html?spm=a2g2w.orderdetail.0.0.20384aa6LKfzBg&sku_id=12000051478540187&_ga=2.6013747.1429933141.1770309479-1631170546.1742897773).
-
 ---
 
 ## Current system performance
@@ -50,3 +42,6 @@ Total cost (with a new CCD spectromter): ~1800 USD
 # Acknowledgments
 Special thanks to [Imai Optics](http://www.imaioptics.com/) for supporting the project by providing a discount on [YM_RPL_785_500](https://aliexpress.ru/item/1005010193725685.html?spm=a2g2w.orderdetail.0.0.20384aa6LKfzBg&sku_id=12000051478540187&_ga=2.6013747.1429933141.1770309479-1631170546.1742897773), which was instrumental in testing the setup during development.
 Also thyanks to [ramanbase.org](https://ramanbase.org/) developers and contributors and ramanspy developers.
+
+The cuvette holder provided here can also be used with [Imai Optics](http://www.imaioptics.com/) probe [YM_RPL_785_500](https://aliexpress.ru/item/1005010193725685.html?spm=a2g2w.orderdetail.0.0.20384aa6LKfzBg&sku_id=12000051478540187&_ga=2.6013747.1429933141.1770309479-1631170546.1742897773).
+
