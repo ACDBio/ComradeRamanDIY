@@ -46,3 +46,7 @@ Total cost (with a new CCD spectromter): ~1800 USD
 7. [IRM785 CCD spectrometer](https://aliexpress.ru/item/1005009187077048.html?spm=a2g2w.orderdetail.0.0.671d4aa6tsgBNN&sku_id=12000048233983566&_ga=2.33651750.606840197.1770619478-1631170546.1742897773)
 8. [SZMCTV 1/2 Microscope Camera Adapter](https://aliexpress.ru/item/32855848880.html?spm=a2g2w.favourites.0.0.778e4aa6S5wLJN&sku_id=10000001989770343) for laser focusing
 9. [TEC1-12715](https://aliexpress.ru/item/1005003070412441.html?shpMethod=CAINIAO_ECONOMY&sku_id=12000023786453944&spm=a2g2w.productlist.search_results.5.53b447bfnGnVcq) for CCD spectrometer cooling with the radiator (here - a 7х8 cm copper one was used) and a fan.
+
+# Acknowledgments
+Special thanks to [Imai Optics](http://www.imaioptics.com/) for supporting the project by providing a discount on [YM_RPL_785_500](https://aliexpress.ru/item/1005010193725685.html?spm=a2g2w.orderdetail.0.0.20384aa6LKfzBg&sku_id=12000051478540187&_ga=2.6013747.1429933141.1770309479-1631170546.1742897773), which was instrumental in testing the setup during development.
+Also thyanks to [ramanbase.org](https://ramanbase.org/) developers and contributors and ramanspy developers.
