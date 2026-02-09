@@ -2,7 +2,7 @@
 A DIY 3D printed Raman system with a CCD spectrometer using based on 90° scattering geometry and 780 nm laser. Adjustment-free
 This repository documents the physical Raman system: overview, .stl and FreeCad files for 3d printing, bill of materials, and examples of the acquired spectra.
 Software used only for calibration, data acquisition, processing, visualization, and search in reference databases is available [here](https://github.com/ACDBio/raman-open-forge-imai).
-
+[!SystemView](https://github.com/ACDBio/ComradeRamanDIY/blob/main/20260204_025937.jpg)
 ---
 
 ## About the system
@@ -28,6 +28,11 @@ E.g. for isopropyl alcohol:
 
 ---
 
+## Implementation Notes
+The system is sensitive to vertical shift of the cuvette holder before assembly. We attached an .stl bottom plates which can be tested and glued to the bottom before assembly if it is off.
+In the final system the counts for DMSO at 30 s integration should be at lease ~27-20k without significant noise at ~15 degrees.
+It is recommended to cool with the TEC system implemented here to 15 degrees - it allows larger integration times up to 60 s.
+
 ## BILL OF MATERIALS
 Total cost (with a new CCD spectromter): ~1800 USD
 1. PETG 3d printing filament for printing the .stl
@@ -36,8 +41,10 @@ Total cost (with a new CCD spectromter): ~1800 USD
 5. [15 degree LED lens](https://aliexpress.ru/item/32820431045.html?spm=a2g2w.orderdetail.0.0.75834aa6qalnJD&sku_id=64707315106&_ga=2.189769388.606840197.1770619478-1631170546.1742897773) for light collection (is inserted in the cuvette holder)
 6. [Quartz cuvette](https://aliexpress.ru/item/32793982308.html?spm=a2g2w.orderdetail.0.0.2bdd4aa6R19moS&sku_id=63840647083&_ga=2.17671998.606840197.1770619478-1631170546.1742897773) 10 mm light path
 7. [IRM785 CCD spectrometer](https://aliexpress.ru/item/1005009187077048.html?spm=a2g2w.orderdetail.0.0.671d4aa6tsgBNN&sku_id=12000048233983566&_ga=2.33651750.606840197.1770619478-1631170546.1742897773)
-8. [SZMCTV 1/2 Microscope Camera Adapter](https://aliexpress.ru/item/32855848880.html?spm=a2g2w.favourites.0.0.778e4aa6S5wLJN&sku_id=10000001989770343) for laser focusing
+8. [SZMCTV 1/2 Microscope Camera Adapter](https://aliexpress.ru/item/32855848880.html?spm=a2g2w.favourites.0.0.778e4aa6S5wLJN&sku_id=10000001989770343) for laser focusing. Microscope objectives also work, but you will need to adjust focusing distance in the 3d model.
 9. [TEC1-12715](https://aliexpress.ru/item/1005003070412441.html?shpMethod=CAINIAO_ECONOMY&sku_id=12000023786453944&spm=a2g2w.productlist.search_results.5.53b447bfnGnVcq) for CCD spectrometer cooling with the radiator (here - a 7х8 cm copper one was used) and a fan.
+10. [780 nm DPSS laser](https://aliexpress.ru/item/1005009999890335.html?spm=a2g2w.orderdetail.0.0.74364aa6jLg0Pi&sku_id=12000050803608976&_ga=2.197611304.606840197.1770619478-1631170546.1742897773) Here - LaseVer was used.
+11. Steel plate 6mm (optional)
 
 # Acknowledgments
 Special thanks to [Imai Optics](http://www.imaioptics.com/) for supporting the project by providing a discount on [YM_RPL_785_500](https://aliexpress.ru/item/1005010193725685.html?spm=a2g2w.orderdetail.0.0.20384aa6LKfzBg&sku_id=12000051478540187&_ga=2.6013747.1429933141.1770309479-1631170546.1742897773), which was instrumental in testing the setup during development.
