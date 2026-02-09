@@ -1,5 +1,5 @@
 # ComradeRamanDIY
-A DIY 3D printed Raman system with a CCD spectrometer using based on 90° scattering geometry and 780 nm laser. Adjustment-free
+A DIY 3D printed Raman system with a CCD spectrometer using based on 90° scattering geometry and 100mW 780 nm laser. Adjustment-free
 This repository documents the physical Raman system: overview, .stl and FreeCad files for 3d printing, bill of materials, and examples of the acquired spectra.
 
 ### Free software which can be used for calibration, data acquisition, processing, visualization, and search in the reference databases is available [here](https://github.com/ACDBio/raman-open-forge-imai).
@@ -47,7 +47,7 @@ Total cost (with a new CCD spectromter): ~1800 USD
 7. [IRM785 CCD spectrometer](https://aliexpress.ru/item/1005009187077048.html?spm=a2g2w.orderdetail.0.0.671d4aa6tsgBNN&sku_id=12000048233983566&_ga=2.33651750.606840197.1770619478-1631170546.1742897773)
 8. [SZMCTV 1/2 Microscope Camera Adapter](https://aliexpress.ru/item/32855848880.html?spm=a2g2w.favourites.0.0.778e4aa6S5wLJN&sku_id=10000001989770343) for laser focusing. Microscope objectives also work, but you will need to adjust focusing distance in the 3d model.
 9. [TEC1-12715](https://aliexpress.ru/item/1005003070412441.html?shpMethod=CAINIAO_ECONOMY&sku_id=12000023786453944&spm=a2g2w.productlist.search_results.5.53b447bfnGnVcq) for CCD spectrometer cooling with the radiator (here - a 7х8 cm copper one was used) and a fan.
-10. [780 nm DPSS laser](https://aliexpress.ru/item/1005009999890335.html?spm=a2g2w.orderdetail.0.0.74364aa6jLg0Pi&sku_id=12000050803608976&_ga=2.197611304.606840197.1770619478-1631170546.1742897773) Here - LaseVer was used.
+10. [780 nm 100mW DPSS laser](https://aliexpress.ru/item/1005009999890335.html?spm=a2g2w.orderdetail.0.0.74364aa6jLg0Pi&sku_id=12000050803608976&_ga=2.197611304.606840197.1770619478-1631170546.1742897773) Here - LaseVer was used.
 11. Steel plate 6mm (optional)
 
 # Acknowledgments
